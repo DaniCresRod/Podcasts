@@ -3,4 +3,32 @@
 #app {
   margin: 0 auto;
   padding: 0;
+
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+hr{
+  width:100%;
+  color:grey;
+}
+
+.podcastCardAuthor{
+  margin: 1vh auto;
+  font-size: 1.5vw;
+  color: grey;
+  font-weight: normal;
+  font-family: 'Inter', sans-serif;
+}
+
+.podcastCardTitle{
+  margin-top: 1vh;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+}
+

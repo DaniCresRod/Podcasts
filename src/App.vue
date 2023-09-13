@@ -6,7 +6,10 @@
 <template>
   <header>
     <div class="wrapper">
-      Hola soy la cabecera
+      <router-link to="/">
+        Podcaster
+      </router-link>      
+      <hr>
     </div>
   </header>
 
@@ -15,10 +18,24 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 header {
-  max-height: 100vh;
-  border: 1px solid black;
+  max-height: 20vh;
   display: block;
-  height: 20vh;
+  height: 5vh;
+
+  color:blue;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+
+  margin-bottom: 2vh;
 }
+
+a:visited{
+  text-decoration: none;
+  color: blue;
+}
+
 </style>

@@ -17,6 +17,7 @@ export default async function getInfoFromSource(){
 
             await localStorage.setItem('podCastInfo', JSON.stringify(response.data));
             localStorage.setItem('dateOfUpdate', Date.now().toString());
+            console.log("actualizado");
         }
         catch(error){
             console.error("Error al obtener la información:", error);
